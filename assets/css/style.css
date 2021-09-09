@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,700;1,400&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #D3D3D3;
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+    color: #333333;
+}
+
+header{
+    text-align: center;
+    
+    font-style: 'Roboto';
+    
+}
+
+header h1{
+    text-transform: uppercase;
+}
+
+
+header h1, header h2{
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+header h2{
+    font-style: italic;
+    font-size: 30px;
+}
+
+.image{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.image img{
+    max-width: 100%;
+    display: block;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;   
+}
+
+.image .legend-image{
+    text-align: center;
+    font-size: 14px;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    
+}
+
+.timeline {
+    background-color: #808080;
+    padding: 10px;
+}
+
+.timeline ul li{
+    line-height: 30px;
+    
+}
+
+.quote{
+    margin: 10px;
+    
+}
+
+.wikipedia{
+    margin: 10px;
+}
+
+.wikipedia a{
+    text-decoration: none;
+    color: #337ab7;
+}
+
+footer{
+    text-align: center;
+    padding: 10px;
+    background-color: cyan;
+    color: black;
+}
+
